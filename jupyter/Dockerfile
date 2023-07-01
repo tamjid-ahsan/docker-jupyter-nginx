@@ -1,5 +1,7 @@
 FROM mambaorg/micromamba:1.4.6
 
+LABEL vendor1="Tamjid Ahsan"
+
 WORKDIR /jupyter
 COPY /code /code
 WORKDIR /code
