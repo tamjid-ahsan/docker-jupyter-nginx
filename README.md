@@ -18,3 +18,4 @@
 - usw `uWSGI` or `ASGI` protocol if possible.
 - reduce image size, if possible.
 - install mamba to ubuntu base image and use that image, might have to use multi stage docker build
+- use volumes for data inside docker
