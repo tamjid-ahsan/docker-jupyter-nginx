@@ -10,6 +10,7 @@
 - [minforge](https://github.com/conda-forge/miniforge-images/blob/master/ubuntu/Dockerfile)
 - [mamba](https://hub.docker.com/r/mambaorg/micromamba)
 - [mamba docker](https://github.com/mamba-org/micromamba-docker/blob/main/Dockerfile)
+- [docker best practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 
 # TODO:
 
