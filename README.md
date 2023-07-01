@@ -6,6 +6,10 @@
 
 - [link](https://alex-jacobs.com/posts/jupyterlab2/)
 - [docker hub](https://hub.docker.com/r/tiangolo/uwsgi-nginx/)
+- [conda env](https://uwekorn.com/2021/03/01/deploying-conda-environments-in-docker-how-to-do-it-right.html)
+- [minforge](https://github.com/conda-forge/miniforge-images/blob/master/ubuntu/Dockerfile)
+- [mamba](https://hub.docker.com/r/mambaorg/micromamba)
+- [mamba docker](https://github.com/mamba-org/micromamba-docker/blob/main/Dockerfile)
 
 # TODO:
 
@@ -13,3 +17,4 @@
 - install packages; may use virtual env | conda
 - usw `uWSGI` or `ASGI` protocol if possible.
 - reduce image size, if possible.
+- install mamba to ubuntu base image and use that image, might have to use multi stage docker build
