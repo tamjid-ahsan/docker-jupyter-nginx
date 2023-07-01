@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     && python3 -m pip install jupyterlab
 RUN pip install pandas
 
-# add user and switch to it
+# add user and switch to it, jupyter does not need elevated privilage
 RUN useradd -ms /bin/bash jupyter
 USER jupyter
 
