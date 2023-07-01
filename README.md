@@ -20,3 +20,4 @@
 - reduce image size, if possible.
 - install mamba to ubuntu base image and use that image, might have to use multi stage docker build
 - use volumes for data inside docker
+- create a vscode env with all extensions | explore [code gpt](https://codegpt.co/pricing)
